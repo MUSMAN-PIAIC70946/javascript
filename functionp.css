@@ -1,3 +1,10 @@
 body {  
-    background-color: lightblue;  
+    background-color: rgb(230, 203, 173);  
+}
+input {  
+    color:lightgoldenrodyellow;  
+     font-size: 30px;  
+}
+.btn {
+    color: rgb(153, 0, 255);
 }
