@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>THIS IS ALL ABOUT VARIABLES</h1>
+    <script>
+        // var a=100;
+        // var b=2.343;
+        // var c="user name";
+        // var d='password';
+        // document.writeln(a + "<br>");
+        // document.writeln(b+ "<br>");
+        // document.writeln(c+ "<br>");
+        // document.writeln(d+ "<br>");
+        var data2=200;
+        function abc()
+        {
+            window.data=200;
+            document.writeln(window.data*window.data2); // calling golbal variable  inside a function
+        }
+       function bcd()
+       {
+        document.writeln(window.data);
+       }
+        abc();  // displaying function
+        bcd();
+    </script>
+</body>
+</html>
